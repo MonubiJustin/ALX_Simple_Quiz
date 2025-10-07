@@ -6,7 +6,7 @@ function checkAnswer() {
         const userAnswer = selectedOption.value;
         const feedback = document.getElementById("feedback")
 
-        if (userAnswer == correctAnswer) {
+        if (userAnswer === correctAnswer) {
             feedback.style.color = "green"
             feedback.textContent = "Correct! Well done."
         } else {
